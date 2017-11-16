@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Merriweather+Sans|Shadows+Into+Light|Yanone+Kaffeesatz');
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #F4CF84;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.navbar {
+  background-color: #F4CF84;
+  color: #FFF; 
+  //font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-nav {
+  color: #FFF;
+}
+
+.nav-link {
+  color: #FFF;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .8);
+}
+.nav-link:hover {
+  color: #5B847B;
+}
+
+.main-body {
+  background-color: #FFF;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+p {
+  padding-top: 5px;
+}
+
+
+.blurb {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/*index page styles*/
+
+#intro-jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.no-underline {
+  color: black;
+}
+
+
+
+/* properties pages styles */
+
+#carouselIntro {
+  width: 100%;
+  max-height: 900px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+#jumbotron-property1 {
+  background-image: url("../images/property1-1.jpg");
+  background-size: cover;
+}
+
+#jumbotron-property2 {
+  background-image: url("../images/property2-1.jpg");
+  background-size: cover;
+}
+
+#jumbotron-property3 {
+  background-image: url("../images/property3-1.jpg");
+  background-size: cover;
+}
+
+
+#carousel-button {
+  margin-top: 290px;
+  float: right;
+  margin-right: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.button {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  width: 120px;
+  height: 40px;
+  line-height: 30px;
+  background: #5B847B;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer; //border: 1px solid #666;
+}
+
+.button:hover {
+  background: #666;
+}
+
+.button:active {
+  background: #3B3B44;
+}
+
+
+#property1Modal .modal-dialog {
+  width: 75%;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+#overview {
+  padding-bottom: 10px;
+}
+
+.overview {
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.price {
+  margin: 10px;
+
+}
+
+/* request form styles */
+h1 {
+  margin: 0;
+}
+
+
+#contactForm {
+  display: none;
+  z-index: 1 !important;
+  border: 6px solid #3B3B44;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%)
+}
+
+input,
+textarea {
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  display: block;
+  width: 280px;
+  padding: .4em;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+
+/* contact page */
+
+label {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/* about page styles */
+
+.profile {
+  min-width: 100px;
+  height: 90px;
+  margin: 10px;
+}
+
+
+/* about page styles */
+#owner1 {
+  background-image: url("../images/owner1.jpg");
+}
+
+#owner2 {
+  background-image: url("../images/owner2.jpg");
+
+}

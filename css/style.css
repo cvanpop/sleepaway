@@ -15,12 +15,21 @@ body {
 .navbar {
   background-color: #F4CF84;
   color: #FFF; 
-  //font-family: 'Shadows Into Light', cursive;
+  cursive;
   text-transform: uppercase;
 }
 
+
+
 .navbar-brand {
   font-size: 30px;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .company-name {
+        display: none;
+    }
 }
 
 .navbar-nav {
@@ -36,7 +45,6 @@ body {
 .nav-link:hover {
   color: #5B847B;
 }
-
 .main-body {
   background-color: #FFF;
   margin-left: 10px;
